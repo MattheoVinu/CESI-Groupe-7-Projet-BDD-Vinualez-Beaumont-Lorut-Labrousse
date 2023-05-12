@@ -190,7 +190,14 @@ INSERT INTO Agence (nomAgence, idVille) VALUES
 ("datax_montpellier", 7),
 ("datax_strasbourg", 8),
 ("datax_bordeaux", 9),
-("datax_lille", 10);
+("datax_lille", 10),
+("datax_lille_sud_ouest", 10),
+("datax_lille_sud", 10),
+("datax_lille_sud_est", 10),
+("datax_lille_nord_ouest", 10),
+("datax_lille_nord", 10),
+("datax_lille_nord_est", 10);
+
 
 ALTER TABLE Ville ADD FOREIGN KEY fk_ville(idRegion) REFERENCES Region(idRegion);
 
